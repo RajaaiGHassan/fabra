@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Website with Audio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <select id="languageSelector">
+        <option value="en">English</option>
+        <option value="fr">French</option>
+        <option value="ar">Arabic</option>
+    </select>
+
+
+    <section class="section intro" data-audio="audio/about.mp3">
+
+    </section>
+
+    <div class="separator"></div>
+
+
+    <section class="section section1" data-audio="1.mp3">
+        <div class="text-box content">
+            <h2 class="text">El joc de les identitats</h2>
+            <p data-start="0" data-end="2.5">Era una nena llavors.</p>
+            <p data-start="2.5" data-end="11">Agafava gairebé tots els dies el tramvia i els meus horaris sempre eren els mateixos.</p>
+            <p data-start="11" data-end="16">El trajecte acostumava a ser de trenta minuts,</p>
+            <p data-start="16" data-end="22">tot i que depenia una mica del nombre de gent que pujava a cada parada.</p>
+            <p data-start="22" data-end="29">Aquell era el primer any que m’havien donat permís per anar-hi sola.</p>
+            <p data-start="29" data-end="37">Diria que aquesta llibertat em feia sentir més alta i gairebé adulta.</p>
+            <p data-start="37" data-end="44">Al començament em passava el que durava el viatge mirant a terra.</p>
+            <p data-start="44" data-end="49.5">A mesura que van anar avançant les setmanes, però,</p>
+            <p data-start="49.5" data-end="51.8">vaig decidir jugar a un joc amb mi mateixa</p>
+            <p data-start="51.8" data-end="55">perquè aquells trenta minuts no se’m fessin tan llargs.</p>
+
+
+
+            <button class="audio-btn">🔊</button>
+        </div>
+    </section>
+
+
+    <div class="separator2"></div>
+
+
+
+    <section class="section section2" data-audio="2.m4a">
+        <div class="text-box2 content">
+            <p data-start="0" data-end="5.5">Era un joc fàcil i silenciós en què només hi intervenia la meva imaginació.</p>
+            <p data-start="5.5" data-end="10.5">Tant d’anada com de tornada seleccionava un viatger i li construïa una
+                identitat:</p>
+            <p data-start="10.5" data-end="13.5"> nom, professió, història personal...</p>
+            <p data-start="13.5" data-end="18">No podria dir per què em fixava en una persona i no en una altra.</p>
+            <p data-start="18" data-end="21">No crec que fos una qüestió d’afinitat,</p>
+            <p data-start="21" data-end="24">sinó més aviat d’on s’aturava la meva mirada.</p>
+            <p data-start="24" data-end="26.5">Tampoc tenia preferències.</p>
+            <p data-start="26.5" data-end="31">Vull dir que em podia fixar en algú de setanta anys o en algú de deu,</p>
+            <p data-start="31" data-end="38">en una noia acabada de sortir de la perruqueria o en un home que, evidentment, estava arribant tard.</p>
+
+
+
+
+            <button class="audio-btn">🔊</button>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <section class="sectionC section3 background">
+
+        <!-- First Text Box with Word-Level Sync -->
+        <div class="content" style="position: absolute; top: 7.0%; left: 57%;">
+            <p class="sync-audio" data-audio="">
+                <span data-start="0.0" data-end="0.8">BARCELONA,</span>
+                <span data-start="0.8" data-end="1.5">PRIMAVERA</span>
+                <span data-start="1.5" data-end="2.2">DE 1895</span>
+            </p>
+        </div>
+
+
+        <div class="content" style="position: absolute; top: 21%; left: 55.0%; font-size: 24px;">
+            <p class="sync-audio" data-audio="BON DIA EL SENYOR FA.m4a">
+                <span data-start="0.0" data-end="1.0">BON DIA.</span><br>
+                <span data-start="1.5" data-end="2.2">EL SENYOR</span><br>
+                <span data-start="2.2" data-end="2.8">FABRA?</span>
+            </p>
+        </div>
+
+
+
+        <div class="content" style="position: absolute; top: 21.8%; left: 85.8%; font-size: 24px;">
+            <p class="sync-audio" data-audio="SÍ DIGUI M.m4a">
+                <span data-start="0.0" data-end="0.8">SÍ.</span><br>
+                <span data-start="0.8" data-end="1.8">DIGUI'M.</span><br>
+            </p>
+        </div>
+
+
+
+
+
+        <div class="content" style="position: absolute; top: 33%; left: 15.0%; font-size: 24px;">
+            <p class="sync-audio" data-audio="AH NO EM PENSAVA QUE.m4a">
+                <span data-start="0.0" data-end="0.8">AH!</span>
+                <span data-start="1.0" data-end="1.6">NO</span><br>
+                <span data-start="1.6" data-end="2.2">EM PENSAVA</span><br>
+                <span data-start="2.2" data-end="2.7">QUE FOS</span><br>
+                <span data-start="2.7" data-end="3.6">TAN JOVE.</span><br>
+            </p>
+        </div>
+
+
+
+        
+        <div class="content" style="position: absolute; top: 43.5%; left: 14.8%; font-size: 24px;">
+            <p class="sync-audio" data-audio="SIGNOR PROFESSORE MH.m4a">
+                <span data-start="0.0" data-end="0.5">SIGNOR</span>
+                <span data-start="0.5" data-end="1.2">PROFESSORE,</span><br>
+                <span data-start="1.2" data-end="1.8">MHAN DIT</span>
+                <span data-start="1.8" data-end="2.5">QUE VOSTÈ</span><br>
+                <span data-start="2.5" data-end="3.2"> ÉS UN GRAN</span>
+                <span data-start="3.2" data-end="3.8">CONEIXEDOR</span><br>
+                <span data-start="3.8" data-end="4.5">DE LES LLENGÜES</span><br>
+                <span data-start="4.5" data-end="5.6">EUROPEES.</span><br>
+            </p>
+        </div>
+
+
+
+        
+        <div class="content" style="position: absolute; top: 34.8%; left: 77%; font-size: 24px;">
+            <p class="sync-audio" data-audio="TINC ALGUNS CONEIXEM.m4a">
+                <span data-start="0.0" data-end="0.8">TINC ALGUNS</span><br>
+                <span data-start="0.8" data-end="1.8">CONEIXEMENTS,</span><br>
+                <span data-start="2.0" data-end="2.6">SOBRETOT</span><br>
+                <span data-start="2.6" data-end="3.6">DE LES LLENGÜES</span><br>
+                <span data-start="3.6" data-end="4.6">NEOLLATINES.</span><br>
+            </p>
+        </div>
+
+
+
+        <div class="content" style="position: absolute; top: 64.8%; left: 9.2%; font-size: 30px;">
+            <p class="sync-audio" data-audio="_NEOLLATINES.m4a">
+                <span data-start="0.0" data-end="1.5">NEOLLATINES?</span><br>
+            </p>
+        </div>
+
+
+
+        
+        <div class="content" style="position: absolute; top: 62.4%; left: 54.5%; font-size: 24px;">
+            <p class="sync-audio" data-audio="LES QUE DERIVEN DEL.m4a">
+                <span data-start="0.0" data-end="1.05">LES QUE DERIVEN</span><br>
+                <span data-start="1.05" data-end="1.8">DEL LLATÍ.</span><br>
+                <span data-start="1.8" data-end="2.4">COM</span>
+                <span data-start="2.4" data-end="3.4">EL FRANCÈS,</span><br>
+                <span data-start="3.4" data-end="4.4">EL CATALÀ,</span>
+                <span data-start="4.4" data-end="5.4">L'ITALIA,</span><br>
+                <span data-start="5.4" data-end="6.0">EL...</span><br>
+            </p>
+        </div>
+
+
+        
+        <div class="content" style="position: absolute; top: 75.7%; left: 11.8%; font-size: 24px;">
+            <p class="sync-audio" data-audio="JUSTAMENT EL QUE NEC.m4a">
+                <span data-start="0.0" data-end="0.8">JUSTAMENT</span><br>
+                <span data-start="0.8" data-end="2.2">EL QUE NECESSITO!</span><br>
+                <span data-start="2.5" data-end="3.6">M'HA D'AJUDAR</span><br>
+                <span data-start="3.6" data-end="4.5">A INVESTIGAR</span><br>
+                <span data-start="4.5" data-end="5.8">UNA SPARIZIONE.</span><br>
+            </p>
+        </div>
+
+
+
+        <div class="content" style="position: absolute; top: 74.6%; left: 68.6%; font-size: 26px;">
+            <p class="sync-audio" data-audio="UNA DESAPARICIÓ.m4a">
+                <span data-start="0.0" data-end="0.4">UNA</span><br>
+                <span data-start="0.4" data-end="1.6">DESAPARICIÓ?</span><br>
+            </p>
+        </div>
+
+
+
+        <div class="content" style="position: absolute; top: 81.6%; left: 76%; font-size: 24px;">
+            <p class="sync-audio" data-audio="ESTAVA A PUNT DE SOR.m4a">
+                <span data-start="0.0" data-end="0.8">ESTAVA</span>
+                <span data-start="0.8" data-end="1.1">A PUNT</span><br>
+                <span data-start="1.1" data-end="1.8">DE SORTIR.</span><br>
+                <span data-start="1.8" data-end="3.4">SI M'ACOMPANYA,</span><br>
+                <span data-start="3.4" data-end="4.6">EN PARLEM.</span><br>
+            </p>
+        </div>
+
+
+    </section>
+
+
+
+
+
+<!-- <div id="cursor-position">0%, 0%</div> -->
+
+  <!-- <canvas id="cursorCanvas"></canvas> --> 
+
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -137,22 +137,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 
-    const languageSelector = document.getElementById("languageSelector");
+   const languageSelector = document.getElementById("languageSelector");
 
     function updateTranslations(language) {
         document.querySelectorAll(".text-box p, .text-box2 p").forEach(paragraph => {
             const originalText = paragraph.dataset.originalText;
             paragraph.dataset.translation = translations[language][originalText] || "Translation unavailable";
         });
-
-        // Change text direction based on selected language
-        if (language === "ar") {
-            document.body.style.direction = "rtl";
-            document.body.style.textAlign = "right";
-        } else {
-            document.body.style.direction = "ltr";
-            document.body.style.textAlign = "left";
-        }
     }
 
     function wrapSentencesWithTranslation(container) {
@@ -160,13 +151,11 @@ document.addEventListener("DOMContentLoaded", function () {
             element.dataset.originalText = element.innerText;
         });
     }
-
     // Listen for language selection change
     languageSelector.addEventListener("change", (e) => {
         const selectedLanguage = e.target.value;
         updateTranslations(selectedLanguage);
     });
-
 
 
 
